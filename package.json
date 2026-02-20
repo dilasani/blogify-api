@@ -1,0 +1,25 @@
+{
+  "name": "blogify-api",
+  "version": "1.0.0",
+  "description": "Backend API for Blogify application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dilasani/blogify-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dilasani/blogify-api/issues"
+  },
+  "homepage": "https://github.com/dilasani/blogify-api#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.13"
+  }
+}
