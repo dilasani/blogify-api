@@ -1,3 +1,0 @@
-0000000000000000000000000000000000000000 5a0fb15da17f69fe2427f938eab6f80a8541e746 YourNewName <yournewemail@gmail.com> 1771569050 +0530	commit (initial): feat: set up initial project structure and http server
-5a0fb15da17f69fe2427f938eab6f80a8541e746 19f9fc916bc29cf13f1e447e1d786a741cda09ce YourNewName <yournewemail@gmail.com> 1771573792 +0530	commit (merge): Resolved merge conflicts in package.json and README.md
-19f9fc916bc29cf13f1e447e1d786a741cda09ce 9fc55723ea99709fd9201c7f848530e24d56e3da YourNewName <yournewemail@gmail.com> 1771573998 +0530	commit: Add .gitignore to ignore node_modules
