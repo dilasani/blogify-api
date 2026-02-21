@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/dilasani/blogify-api.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[branch "feat/setup-initial-structure"]
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/docs/update-readme
+[branch "feat/implement-weather-logic"]
+	vscode-merge-base = origin/docs/update-readme

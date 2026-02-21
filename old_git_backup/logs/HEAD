@@ -1,0 +1,17 @@
+0000000000000000000000000000000000000000 ba8a174e2bf073bd53dbcdb45f31e3e65dec7fab YourNewName <yournewemail@gmail.com> 1771561355 +0530	commit (initial): feat: set up initial project structure
+ba8a174e2bf073bd53dbcdb45f31e3e65dec7fab 0000000000000000000000000000000000000000 YourNewName <yournewemail@gmail.com> 1771561415 +0530	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 ba8a174e2bf073bd53dbcdb45f31e3e65dec7fab YourNewName <yournewemail@gmail.com> 1771561415 +0530	Branch: renamed refs/heads/master to refs/heads/main
+ba8a174e2bf073bd53dbcdb45f31e3e65dec7fab 5d47b737e45794afe1bb3398ffd2ff099d71cac2 YourNewName <yournewemail@gmail.com> 1771561618 +0530	commit: docs: add initial README file
+5d47b737e45794afe1bb3398ffd2ff099d71cac2 5d47b737e45794afe1bb3398ffd2ff099d71cac2 YourNewName <yournewemail@gmail.com> 1771561682 +0530	checkout: moving from main to docs/update-readme
+5d47b737e45794afe1bb3398ffd2ff099d71cac2 980ff53dbc9a484efbb10e90fa13f6f7ce727e79 YourNewName <yournewemail@gmail.com> 1771561707 +0530	commit: docs: update README description
+980ff53dbc9a484efbb10e90fa13f6f7ce727e79 e2c95d11a368e9fe7d7bc496e4a74625aee54664 YourNewName <yournewemail@gmail.com> 1771568833 +0530	commit: feat: set up initial project structure and http server
+e2c95d11a368e9fe7d7bc496e4a74625aee54664 0000000000000000000000000000000000000000 YourNewName <yournewemail@gmail.com> 1771568962 +0530	Branch: renamed refs/heads/docs/update-readme to refs/heads/feat/setup-initial-structure
+0000000000000000000000000000000000000000 5a0fb15da17f69fe2427f938eab6f80a8541e746 YourNewName <yournewemail@gmail.com> 1771569050 +0530	commit (initial): feat: set up initial project structure and http server
+5a0fb15da17f69fe2427f938eab6f80a8541e746 5a0fb15da17f69fe2427f938eab6f80a8541e746 YourNewName <yournewemail@gmail.com> 1771569347 +0530	checkout: moving from feat/setup-initial-structure to feat/setup-initial-structure
+5a0fb15da17f69fe2427f938eab6f80a8541e746 5a0fb15da17f69fe2427f938eab6f80a8541e746 YourNewName <yournewemail@gmail.com> 1771573073 +0530	checkout: moving from feat/setup-initial-structure to feat/setup-initial-structure
+5a0fb15da17f69fe2427f938eab6f80a8541e746 5a0fb15da17f69fe2427f938eab6f80a8541e746 YourNewName <yournewemail@gmail.com> 1771573157 +0530	checkout: moving from feat/setup-initial-structure to feat/setup-initial-structure
+5a0fb15da17f69fe2427f938eab6f80a8541e746 19f9fc916bc29cf13f1e447e1d786a741cda09ce YourNewName <yournewemail@gmail.com> 1771573792 +0530	commit (merge): Resolved merge conflicts in package.json and README.md
+19f9fc916bc29cf13f1e447e1d786a741cda09ce 9fc55723ea99709fd9201c7f848530e24d56e3da YourNewName <yournewemail@gmail.com> 1771573998 +0530	commit: Add .gitignore to ignore node_modules
+9fc55723ea99709fd9201c7f848530e24d56e3da 9fc55723ea99709fd9201c7f848530e24d56e3da YourNewName <yournewemail@gmail.com> 1771603853 +0530	checkout: moving from feat/setup-initial-structure to feat/implement-weather-logic
+9fc55723ea99709fd9201c7f848530e24d56e3da d477b2d450a7fb5f7b38633016e782a64c341925 YourNewName <yournewemail@gmail.com> 1771603860 +0530	commit: feat: implement weather CLI application
+d477b2d450a7fb5f7b38633016e782a64c341925 d477b2d450a7fb5f7b38633016e782a64c341925 YourNewName <yournewemail@gmail.com> 1771638847 +0530	checkout: moving from feat/implement-weather-logic to refactor/posts-to-controller
