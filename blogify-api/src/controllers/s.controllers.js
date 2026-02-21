@@ -1,15 +1,9 @@
 // src/controllers/posts.controller.js
-
-// Function to handle fetching all posts
-const getAllPosts = (req, res) => {
+const getPostById = (req, res) => {
+  const { postId } = req.params;
   res.status(200).json({
-    status: 'success',
-    message: 'All posts retrieved successfully',
-    data: [] // you can replace [] with actual posts later
+    message: `Fetching data for post with ID: ${postId}`
   });
 };
 
-// Export the controller function
-module.exports = {
-  getAllPosts
-};
+module.exports = { getPostById };
