@@ -1,36 +1,23 @@
 // src/index.js
 const express = require('express');
 const app = express();
+const routes = require('./routes/index.routes');
 
-// Minimal "database" array for testing
-const posts = [
-  { id: '123-abc', title: 'First Post', content: 'Hello World!' },
-  { id: '456-def', title: 'Second Post', content: 'Another post.' }
-];
+// Global Middleware
+app.use(express.json());
 
-// Root route
-app.get('/', (req, res) => {
-  res.send('Blogify API is running!');
+// Mount main router (versioned)
+app.use('/api/v1', routes);
+
+// Global Error Handling Middleware
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(err.status || 500).json({
+    success: false,
+    message: err.message || 'Internal Server Error'
+  });
 });
 
-// Route for all posts
-app.get('/api/v1/posts', (req, res) => {
-  res.json(posts);
-});
-
-// Dynamic route for single post
-app.get('/api/v1/posts/:postId', (req, res) => {
-  const postId = req.params.postId;
-  const post = posts.find(p => p.id === postId);
-  if (post) {
-    res.json(post);
-  } else {
-    res.status(404).json({ message: `Post with ID ${postId} not found` });
-  }
-});
-
-// Start server
-const PORT = 3000;
-app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
-});
+// Start Server
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
